@@ -1,0 +1,59 @@
+.redbox{
+	background-color: #66ccff;
+	width: 100px;
+	height: 100px;
+	transition-duration: 3s;
+	border-radius: 200px;
+
+	margin-left:100px;
+
+}
+.redbox:hover{
+width: 200px;
+height: 300px;
+
+}
+.redbox:active{
+background-color: blue;
+}
+.nav{
+	background-color: #66ccff;
+	width: 80px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+transition-duration: 1s;
+}
+.nav:hover{
+    width: 200px;
+
+}
+
+.nav a{
+  display: flex;
+  align-items: center;
+  
+ 
+}
+img{
+	height: 50px;
+
+}
+
+.nav:hover{
+	
+}
+.nav a p{
+	color:black;
+	opacity: 0;
+	transition-duration: 1s;
+
+}
+.nav:hover a p{
+	opacity: 100;
+
+}
+.nav a:hover{
+  
+}

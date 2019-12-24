@@ -1,21 +1,3 @@
-.redbox{
-	background-color: #66ccff;
-	width: 100px;
-	height: 100px;
-	transition-duration: 3s;
-	border-radius: 200px;
-
-	margin-left:100px;
-
-}
-.redbox:hover{
-width: 200px;
-height: 300px;
-
-}
-.redbox:active{
-background-color: blue;
-}
 .nav{
 	background-color: #66ccff;
 	width: 80px;
@@ -58,5 +40,9 @@ img{
   
 }
 body{
-	background-color: #5a4fd6
+	margin-top: 100px;
+	position: absolute;
+}
+#my{
+	padding-left: 80px;
 }
